@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('unidade_saudes', function (Blueprint $table) {
             $table->id();
+            $table->string('nome')->nullable();
+            $table->string('endereco')->nullable();
             $table->timestamps();
         });
     }

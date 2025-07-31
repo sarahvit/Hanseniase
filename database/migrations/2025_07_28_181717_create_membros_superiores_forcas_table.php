@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('classificaca_hidratacaos', function (Blueprint $table) {
+        Schema::create('membros_superiores_forcas', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
         });
@@ -22,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('classificaca_hidratacaos');
+        Schema::dropIfExists('membros_superiores_forcas');
     }
 };

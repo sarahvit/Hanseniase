@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('comportamento_regulacao_neuros', function (Blueprint $table) {
             $table->id();
+            $table->string('descricao');
             $table->timestamps();
         });
     }

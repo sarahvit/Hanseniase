@@ -16,6 +16,11 @@ return new class extends Migration
             $table->string('descricao');
             $table->timestamps();
         });
+        Schema::create('sonos', function (Blueprint $table) {
+            $table->id();
+            $table->string('descricao');
+            $table->timestamps();
+        });
     }
 
     /**

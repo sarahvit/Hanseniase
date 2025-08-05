@@ -44,5 +44,6 @@ return new class extends Migration {
     {
         Schema::dropIfExists('sonos');
         Schema::dropIfExists('sonoproblemas');
+        Schema::dropIfExists('medicamentos_sono');
     }
 };
